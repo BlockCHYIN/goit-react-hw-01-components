@@ -1,0 +1,20 @@
+.transactionHistory {
+  width: 400px;
+  border: 1px solid rgb(13, 7, 34);
+  background-color: lightslategray;
+}
+.tableTitle {
+  background-color: lightseagreen;
+}
+.tableBody {
+}
+.tableLines {
+  background-color: rgb(233, 243, 243);
+}
+
+.tableLines:nth-child(2n) {
+  background-color: rgb(222, 223, 223);
+}
+.tableItem {
+  text-align: center;
+}

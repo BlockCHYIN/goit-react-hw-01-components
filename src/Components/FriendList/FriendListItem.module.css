@@ -1,0 +1,37 @@
+.item {
+  background-color: darkgrey;
+  display: flex;
+  align-items: center;
+  padding: 5px 10px;
+  border-radius: 2px;
+}
+.item:not(:last-child) {
+  margin-bottom: 5px;
+}
+.status::before {
+  display: block;
+  content: "";
+}
+.statusOf {
+  composes: status;
+  border-radius: 10px;
+  margin-right: 5px;
+  border: 5px solid rgb(247, 3, 3);
+}
+
+.statusOn {
+  composes: status;
+  border-radius: 5px;
+  margin-right: 10px;
+  border: 5px solid green;
+}
+.avatar {
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  border-radius: 8px;
+}
+.name {
+  margin: 0;
+  padding-left: 10px;
+}
